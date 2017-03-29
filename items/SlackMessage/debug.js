@@ -1,9 +1,13 @@
 var handler = require('./handler.js').handler;
 var parameters = {
     "userInput":{},
-    "dbRow" :{},
+    "dbRow" :{
+        id: 102
+    },
     "parameters": {simulateError:true},
-    "userProfile":{}
+    "userProfile":{
+        username: "El_dante565@yahoo.com"
+    }
 };
 
 handler(parameters, {succeed:function(result){

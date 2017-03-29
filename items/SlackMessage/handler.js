@@ -15,7 +15,6 @@ exports.handler = function(event, context) {
     }
     catch(error){
         context.fail("unhandled: " + error);
-
     }
 };
 
