@@ -1,3 +1,4 @@
+"use strict";
 const BACKAND = require('@backand/nodejs-sdk');
 const SLACKSDK = require('@slack/client').IncomingWebhook;
 

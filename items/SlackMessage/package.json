@@ -1,4 +1,10 @@
 {
   "name": "ebc2-slack",
-  "version": "0.0.1"
+  "version": "0.0.1",
+  "description": "EBC: Slack Action",
+  "license": "GNU GPLv3",
+  "dependencies": {
+    "@backand/nodejs-sdk": "^1.1.2",
+    "@slack/client": "^3.9.0"
+  }
 }
