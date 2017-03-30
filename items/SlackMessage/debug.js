@@ -2,12 +2,8 @@ var handler = require('./handler.js').handler;
 var parameters = {
     "userInput": {},
     "dbRow": {},
-    "parameters": {
-        simulateError: true
-    },
-    "userProfile": {
-        username: "El_dante565@yahoo.com"
-    }
+    "parameters": {},
+    "userProfile": {}
 };
 
 handler(parameters, {
