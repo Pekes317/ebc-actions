@@ -1,7 +1,7 @@
-"use strict";
+'use strict';
+const BACKAND = require('@backand/nodejs-sdk');
+const SLACKSDK = require('@slack/client').IncomingWebhook;
 exports.backandCallback = function (dbRow, parameters, userProfile, respondToBackand) {
-    const BACKAND = require('@backand/nodejs-sdk');
-    const SLACKSDK = require('@slack/client').IncomingWebhook;
     let url = 'https://hooks.slack.com/services/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';
     let slack = new SLACKSDK(url);
     let ebc = {};
