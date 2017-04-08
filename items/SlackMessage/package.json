@@ -4,7 +4,7 @@
   "description": "EBC: Slack Action",
   "license": "GNU GPLv3",
   "dependencies": {
-    "@backand/nodejs-sdk": "^1.1.2",
+    "@backand/nodejs-sdk": "^1.1.8",
     "@slack/client": "^3.9.0"
   }
 }
